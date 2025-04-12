@@ -4,7 +4,7 @@ const path=require('path')
 const cors=require("cors")
 const app=express()
 const connectdb=require('./config/db.js')
-const route=require('./routes/invoiceRoute')
+const route=require('./routes/invoiceRoute.js')
 const proroute=require('./routes/productRoute.js')
 const port=process.env.PORT||7777;
 app.use(cors())
