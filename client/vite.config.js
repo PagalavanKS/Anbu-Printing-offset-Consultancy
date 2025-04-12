@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://anbu-printing-offset-consultancy.onrender.com', // Your Express server URL
+        target: 'https://anbu-printing-offset-consultancy.onrender.com', 
+        // Your Express server URL
         changeOrigin: true,
         secure: false
       }
